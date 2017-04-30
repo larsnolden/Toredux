@@ -1,0 +1,29 @@
+.element {
+  border-top: 3px solid black;
+  height: 70px;
+}
+
+.element:nth-child(1) {
+  border-top: none;
+}
+  
+.element h2 {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.element div {
+  display: inline-block;
+  float: right;
+  width: 70px;
+  height: 70px;
+  background: red;
+  color: white;
+  text-align: center;
+}
+
+.element i {
+  font-size: 40px;
+    text-align: center;
+  line-height: 69px;
+}
